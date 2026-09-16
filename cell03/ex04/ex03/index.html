@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do or not to do</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 50px; }
+        #ft_list { width: 300px; margin-top: 20px; }
+        .todo-item { 
+            padding: 10px; border: 1px solid #ccc; margin-bottom: 5px; 
+            cursor: pointer; background: #fff; text-align: center;
+        }
+        .todo-item:hover { background: #fee; border-color: #f00; }
+        button { padding: 10px 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <button id="new-btn">New</button>
+
+    <div id="ft_list"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
